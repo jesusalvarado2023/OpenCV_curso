@@ -1,5 +1,6 @@
 streamlit
-opencv-python==4.8.1.78
+opencv-python-headless
+#opencv-python==4.8.1.78
 numpy
 pillow
-python_version == 3.10
+#python_version == 3.10
