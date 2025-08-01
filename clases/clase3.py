@@ -8,7 +8,7 @@ def mostrar():
 import cv2
 
 # Cargar imagen
-imagen = cv2.imread('imagenes/ejemplo.jpg')
+imagen = cv2.imread('imagenes/spiderman.PNG')
 
 # Convertir a escala de grises
 gris = cv2.cvtColor(imagen, cv2.COLOR_BGR2GRAY)
@@ -22,7 +22,7 @@ cv2.waitKey(0)
 cv2.destroyAllWindows()
     ''')
 
-    imagen = cv2.imread('imagenes/ejemplo.jpg')
+    imagen = cv2.imread('imagenes/spiderman.PNG')
     gris = cv2.cvtColor(imagen, cv2.COLOR_BGR2GRAY)
     bordes = cv2.Canny(gris, 100, 200)
 
