@@ -4,7 +4,7 @@ from PIL import Image
 import numpy as np
 
 def mostrar():
-    st.title("Clase 1: Cargar y Mostrar Imágenes")
+    st.title("Ejemplo 1: Cargar y Mostrar Imágenes")
 
     st.code('''
 import cv2
