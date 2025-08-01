@@ -2,7 +2,7 @@ import streamlit as st
 import cv2
 
 def mostrar():
-    st.title("Clase 3: Detección de Bordes (Canny)")
+    st.title("Ejemplo 3: Detección de Bordes (Canny)")
 
     st.code('''
 import cv2
