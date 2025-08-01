@@ -23,7 +23,11 @@ cv2.destroyAllWindows()
     ''')
 
     imagen = cv2.imread('imagenes/spiderman.PNG')
+    st.info("Original")
+    imagen_rgb = cv2.cvtColor(imagen, cv2.COLOR_BGR2RGB)
+    st.image(imagen_rgb, caption="Imagen cargada", use_container_width=True)
+
+    st.info("Bordes")
     gris = cv2.cvtColor(imagen, cv2.COLOR_BGR2GRAY)
     bordes = cv2.Canny(gris, 100, 200)
-
     st.image(bordes, caption="Bordes detectados (Canny)", channels="GRAY")
