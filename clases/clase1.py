@@ -22,4 +22,5 @@ cv2.destroyAllWindows()
 
     imagen = cv2.imread('imagenes/minion.png')
     imagen_rgb = cv2.cvtColor(imagen, cv2.COLOR_BGR2RGB)
-    st.image(imagen_rgb, caption="Imagen cargada", use_column_width=True)
+    #st.image(imagen_rgb, caption="Imagen cargada", use_column_width=True)
+    st.image(imagen_rgb, caption="Imagen cargada", use_container_width=True)
