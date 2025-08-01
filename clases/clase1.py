@@ -20,6 +20,6 @@ cv2.destroyAllWindows()
 
     st.write("Resultado en Streamlit:")
 
-    imagen = cv2.imread('imagenes/pecera.PNG')
+    imagen = cv2.imread('imagenes/minion.png')
     imagen_rgb = cv2.cvtColor(imagen, cv2.COLOR_BGR2RGB)
     st.image(imagen_rgb, caption="Imagen cargada", use_column_width=True)
