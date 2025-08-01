@@ -8,7 +8,7 @@ def mostrar():
 import cv2
 
 # Cargar imagen
-imagen = cv2.imread('imagenes/ejemplo.jpg')
+imagen = cv2.imread('imagenes/minion.png')
 
 # Convertir a escala de grises
 gris = cv2.cvtColor(imagen, cv2.COLOR_BGR2GRAY)
@@ -23,7 +23,7 @@ cv2.waitKey(0)
 cv2.destroyAllWindows()
     ''')
 
-    imagen = cv2.imread('imagenes/ejemplo.jpg')
+    imagen = cv2.imread('imagenes/minion.png')
     gris = cv2.cvtColor(imagen, cv2.COLOR_BGR2GRAY)
     resized = cv2.resize(imagen, (200, 200))
 
