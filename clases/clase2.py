@@ -23,7 +23,8 @@ cv2.waitKey(0)
 cv2.destroyAllWindows()
     ''')
 
-    imagen = cv2.imread('imagenes/minion.png')
+    imagen = cv2.imread('imagenes/pecera.PNG')
+    st.image(original, caption="Imagen original") #
     gris = cv2.cvtColor(imagen, cv2.COLOR_BGR2GRAY)
     resized = cv2.resize(imagen, (200, 200))
 
