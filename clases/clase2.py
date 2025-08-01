@@ -2,7 +2,7 @@ import streamlit as st
 import cv2
 
 def mostrar():
-    st.title("Clase 2: Escala de Grises y Redimensionamiento")
+    st.title("Ejemplo 2: Escala de Grises y Redimensionamiento")
 
     st.code('''
 import cv2
