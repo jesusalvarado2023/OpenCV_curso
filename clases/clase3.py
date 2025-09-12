@@ -1,4 +1,4 @@
-import streamlit as st
+eimport streamlit as st
 import cv2
 import numpy as np
 
@@ -42,8 +42,9 @@ cv2.destroyAllWindows()
     # Procesar bordes
     st.info("Bordes")
     gris = cv2.cvtColor(imagen, cv2.COLOR_BGR2GRAY)
-    bordes = cv2.Canny(gris, 20, 500)
+    bordes = cv2.Canny(gris, 100, 200)
     st.image(bordes, caption="Bordes detectados (Canny)", channels="GRAY")
+
 
 
 
