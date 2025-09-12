@@ -15,7 +15,7 @@ imagen = cv2.imread('imagenes/spiderman.PNG')
 gris = cv2.cvtColor(imagen, cv2.COLOR_BGR2GRAY)
 
 # Aplicar detector de bordes Canny
-bordes = cv2.Canny(gris, 100, 200)
+bordes = cv2.Canny(gris, 10, 20)
 
 # Mostrar bordes
 cv2.imshow('Bordes Canny', bordes)
@@ -44,3 +44,4 @@ cv2.destroyAllWindows()
     gris = cv2.cvtColor(imagen, cv2.COLOR_BGR2GRAY)
     bordes = cv2.Canny(gris, 100, 200)
     st.image(bordes, caption="Bordes detectados (Canny)", channels="GRAY")
+
