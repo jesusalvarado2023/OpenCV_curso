@@ -9,7 +9,7 @@ opcion = st.sidebar.radio("Selecciona una clase:", ("Ejemplo 1", "Ejemplo 2", "E
 if opcion == "Ejemplo 1":
     clase1.mostrar()
 elif opcion == "Ejemplo 2":
-    #clase2.mostrar()
+    clase2.mostrar()
 elif opcion == "Ejemplo 3":
-    #clase3.mostrar()
+    eclase3.mostrar()
 
