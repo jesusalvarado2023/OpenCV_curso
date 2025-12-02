@@ -11,5 +11,5 @@ if opcion == "Ejemplo 1":
 elif opcion == "Ejemplo 2":
     clase2.mostrar()
 elif opcion == "Ejemplo 3":
-    eclase3.mostrar()
+    clase3.mostrar()
 
